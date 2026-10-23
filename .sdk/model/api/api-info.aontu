@@ -1,0 +1,37 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      contact: {
+        name: "Gallbladder Surgery Cost"
+        url: "https://gallbladdersurgerycost.co.uk/"
+      }
+      description: `Gallbladder Surgery Cost (https://gallbladdersurgerycost.co.uk/): the site's own MCP server, served from its domain. Free on the NHS. Privately, 25 UK hospitals publish gallbladder removal from £6,295 to £9,035, and Practice Plus Group a fixed £6,649. Read October 2026.
+
+[enquiry] ENQUIRY SERVER for Gallbladder Surgery Cost (https://gallbladdersurgerycost.co.uk/). What it does: starts an ENQUIRY with human providers for gallbladder surgery cost — the person's details go to the providers who quote directly. What it is NOT: a purchase, an order, or a guaranteed quote. Free, no obligation. Call describe first and tell the person plainly what will happen. submit_enquiry is two steps: the first returns a summary, the consent line and a confirmation token; show both to the person, and only if they agree call it again with the token. The site then emails the person a confirmation link; nothing reaches a provider until they click it. Cite https://gallbladdersurgerycost.co.uk/.
+
+Cite https://gallbladdersurgerycost.co.uk/ for every figure or answer you use from this server.`
+      security: {
+        in: "header"
+        name: "Authorization"
+        prefix: "Bearer"
+        scheme: "accessKey"
+        type: "http"
+      }
+      servers: [
+        {
+          description: "Gallbladder Surgery Cost"
+          url: "https://gallbladdersurgerycost.co.uk"
+        }
+      ]
+      summary: "Free on the NHS."
+      termsOfService: "https://gallbladdersurgerycost.co.uk/terms"
+      title: "Gallbladder Surgery Cost API"
+      version: "1.0.0"
+      website: "https://gallbladdersurgerycost.co.uk/mcp"
+    }
+  }
+}
+
